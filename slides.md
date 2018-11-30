@@ -1,16 +1,28 @@
-% Name
-% Title
-% Date
+% Simple slides with (py)pandoc
+% Martin Skarzynski
+% 2018-09-27
 
+# Hobby
+Zumba
 
-# Slide 1
+# Fun Fact
+I speak 4 natural languages 
 
-Text
+- English,
+- Spanish,
+- Polish, and 
+- Russian.
 
+# Programming Background
+In addition to Python, I use the [UNIX shell](http://swcarpentry.github.io/shell-novice/) and the [R programming language](https://www.r-project.org/about.html).
 
-# Slide 2
-- bullet 1
-- bullet 2
+# Interesting Python code
+```python
+# get a list of all of the letters in the alphabet 
+[chr(65+i) for i in range(26)] #uppercase      
+[chr(97+i) for i in range(26)] #lowercase
+```
 
-# An image
-![img](https://m.media-amazon.com/images/M/MV5BOWIyOGJiYWMtM2FlYS00OThhLThiZTQtMGE2NjEzM2Y4ZmE0XkEyXkFqcGdeQXVyMjgzNDgyNTE@._V1_UY268_CR147,0,182,268_AL_.jpg)
+# An interesting image from Wikipedia
+![doggy](https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg)
+
