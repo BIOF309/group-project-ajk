@@ -1,11 +1,11 @@
-% Name
-% Title
-% Date
+% Alexander Kim
+% NCHS Leading Causes of Death in US from 1999-2016
+% 12 December 2018
 
 
 # Slide 1
 
-Text
+
 
 
 # Slide 2
