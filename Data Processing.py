@@ -23,7 +23,7 @@ colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral','red','green','blu
 NCHS['Actv'].value_counts().plot(kind='pie',title='Activity',colors=colors)
 plt.show()
 
-
+f
 
 
 
