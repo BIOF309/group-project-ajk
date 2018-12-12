@@ -29,3 +29,4 @@ barplot.legend(["All causes","Alzheimer's disease","CLRD","Cancer", "Diabetes","
 
 plt.show()
 
+
