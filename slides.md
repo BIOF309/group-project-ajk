@@ -48,3 +48,7 @@ Alexander Kim
 
 - Cancer and heart disease has been the two leading causes of death in the past two decades.
 
+# Future Directions
+
+- Create a more user friendly step-by-step program where researchers can insert variables and quickly perform data visualization.
+ 
