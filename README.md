@@ -20,10 +20,36 @@ Goals
 
     Project Directions
     (1) Download dataset from CDC link
-    (2) f
-    (3) f
-    (4) f
-    (5) r
+    (2) Examine the data and analyze columns
+    (3) Select the column names of interest
+    (4) Group this new dataset by year and by cause name to create the x-axis and different types in each bar in bar plot
+    (5) Sum this new group to create the y-axis in bar plot
+    (6) Create bar graph
+     
+
+Code
+
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    NCHS = pd.read_csv('NCHS_-_Leading_Causes_of_Death__United_States.csv')
+    
+    NCHS.info()
+    
+    year = NCHS[['Cause Name', 'Year', 'Deaths']]
+    year_group = year.groupby(['Year','Cause Name'])
+    year_group_total = year_group.sum()
+    
+    barplot = year_group_total.unstack().plot(kind='bar',stacked=True,title='Number of Deaths by Cause Name each year (1999-2016)',figsize=(9,7))
+    barplot.set_xlabel('Year')
+    barplot.set_ylabel('Deaths')
+    barplot.set_ylim((0,10000000))
+    barplot.legend(["All causes","Alzheimer's disease","CLRD","Cancer", "Diabetes","Heart disease", "Influenza and pneumonia", "Kidney disease", "Stroke", "Suicide", "Unintentional injuries"])
+    
+    plt.show()
+
+
 
 
 --------
