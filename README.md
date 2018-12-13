@@ -24,7 +24,7 @@ Directions
 - (3) Select the column names of interest
 - (4) Group this new dataset by year and by cause name to create the x-axis and different types in each bar in bar plot
 - (5) Sum this new group to create the y-axis in bar plot
-- (6) Create bar graph
+- (6) Create & save bar graph
      
 
 Code | Data Processing.py
@@ -48,6 +48,7 @@ Code | Data Processing.py
     barplot.legend(["All causes","Alzheimer's disease","CLRD","Cancer", "Diabetes","Heart disease", "Influenza and pneumonia", "Kidney disease", "Stroke", "Suicide", "Unintentional injuries"])
     
     plt.show()
+    plt.savefig('#deathsbycausenameyear_bargraph.png')
 
 
 
