@@ -9,7 +9,7 @@ Alexander Kim
 
 # Research Question
 
-- What were the leading causes of death each year in the past two decades? 
+- What were the leading causes of death in the US each year in the past two decades? 
 
 # Goals 
 - Import csv data from link 
@@ -46,7 +46,7 @@ Alexander Kim
 
 # Conclusion
 
-- Cancer and heart disease has been the two leading causes of death in the past two decades.
+- Cancer and heart disease has been the two leading causes of death in the US for the past two decades.
 
 # Future Directions
 
