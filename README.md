@@ -1,7 +1,7 @@
 NCHS Data Analysis
 ==============================
 
-[Slides](https://biof309.github.io/group-project-ajk/slides.html)
+[Slides](http://localhost:63342/group-project-ajk/slides.html?_ijt=4hubaq94bdsg45ahd6vqlnc8bn#(1))
 
 This dataset from ([CDC](https://catalog.data.gov/dataset/age-adjusted-death-rates-for-the-top-10-leading-causes-of-death-united-states-2013)) presents the age-adjusted death rates for the 10 leading causes of death in the United States beginning in 1999. Data are based on information from all resident death certificates filed in the 50 states and the District of Columbia using demographic and medical characteristics. Age-adjusted death rates (per 100,000 population) are based on the 2000 U.S. standard population. Populations used for computing death rates after 2010 are postcensal estimates based on the 2010 census, estimated as of July 1, 2010. Rates for census years are based on populations enumerated in the corresponding censuses. Rates for non-census years before 2010 are revised using updated intercensal population estimates and may differ from rates previously published. Causes of death classified by the International Classification of Diseases, Tenth Revision (ICD–10) are ranked according to the number of deaths assigned to rankable causes. Cause of death statistics are based on the underlying cause of death. SOURCES CDC/NCHS, National Vital Statistics System, mortality data (see http://www.cdc.gov/nchs/deaths.htm); and CDC WONDER (see http://wonder.cdc.gov). REFERENCES
 
@@ -50,7 +50,7 @@ Code | Data Processing.py
     plt.show()
 
 
-Bar Graph | Number of Deaths by Cause Name each year (1999-2016)
+Bar Graph | Number of Deaths by Cause Name Each Year (1999-2016)
 
 ![img](https://raw.githubusercontent.com/BIOF309/group-project-ajk/master/%23deathsbycausenameyear_bargraph.png) 
 
