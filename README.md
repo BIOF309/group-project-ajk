@@ -51,7 +51,8 @@ Code | Data Processing.py
 
 
 Bar Graph | Number of Deaths by Cause Name each year (1999-2016)
- 
+
+![img](https://raw.githubusercontent.com/BIOF309/group-project-ajk/master/%23deathsbycausenameyear_bargraph.png) 
 
 --------
 
