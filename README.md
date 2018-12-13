@@ -18,16 +18,16 @@ Goals
 - Produce graphs to understand relationships in dataset
 
 
-    Project Directions
-    (1) Download dataset from CDC link
-    (2) Examine the data and analyze columns
-    (3) Select the column names of interest
-    (4) Group this new dataset by year and by cause name to create the x-axis and different types in each bar in bar plot
-    (5) Sum this new group to create the y-axis in bar plot
-    (6) Create bar graph
+Directions
+- (1) Download dataset from CDC link
+- (2) Examine the data and analyze columns
+- (3) Select the column names of interest
+- (4) Group this new dataset by year and by cause name to create the x-axis and different types in each bar in bar plot
+- (5) Sum this new group to create the y-axis in bar plot
+- (6) Create bar graph
      
 
-Code
+Code | Data Processing.py
 
     import pandas as pd
     import numpy as np
