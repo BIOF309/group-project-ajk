@@ -12,13 +12,13 @@ Murphy SL, Xu JQ, Kochanek KD, Curtin SC, and Arias E. Deaths: Final data for 20
 Project Organization
 ------------
 
-Goals
+Goals:
 - Upload dataset 
 - Manipulate dataset
 - Produce graphs to understand relationships in dataset
 
 
-Directions
+Directions:
 - (1) Download dataset from CDC link
 - (2) Examine the data and analyze columns
 - (3) Select the column names of interest
@@ -27,7 +27,7 @@ Directions
 - (6) Create bar graph
      
 
-Code | Data Processing.py
+Code | Data Processing.py:
 
     import pandas as pd
     import numpy as np
@@ -50,7 +50,7 @@ Code | Data Processing.py
     plt.show()
 
 
-Bar Graph | Number of Deaths by Cause Name Each Year (1999-2016)
+Bar Graph | Number of Deaths by Cause Name Each Year (1999-2016):
 
 ![img](https://raw.githubusercontent.com/BIOF309/group-project-ajk/master/%23deathsbycausenameyear_bargraph.png) 
 
