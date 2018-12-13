@@ -48,6 +48,7 @@ Code | Data Processing.py
     barplot.legend(["All causes","Alzheimer's disease","CLRD","Cancer", "Diabetes","Heart disease", "Influenza and pneumonia", "Kidney disease", "Stroke", "Suicide", "Unintentional injuries"])
     
     plt.show()
+    plt.savefig()
  
 
 --------
